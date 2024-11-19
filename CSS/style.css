@@ -1,0 +1,45 @@
+/* reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* tools */
+
+.debug {
+    border: 1px solid red;
+}
+
+/* assets */
+
+.container {
+    max-width: 970px;
+    margin: 0 auto;
+    padding: 30px;
+}
+
+h1,
+h3,
+p,
+li {
+    text-align: center;
+
+}
+
+#button {
+    display: flex;
+    margin: 0 auto;
+    object-position: center;
+}
+
+li {
+    color: white;
+    background-color: blue;
+    list-style-type: none;
+    padding: 20px;
+    border-radius: 50px;
+    margin: 10px 0;
+    font-size: 150%;
+    font-weight: 500;
+}
